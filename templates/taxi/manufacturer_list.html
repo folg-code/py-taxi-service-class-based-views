@@ -1,9 +1,10 @@
 {% extends "base.html" %}
+
 {% block content %}
   <h1>Manufacturers List</h1>
 
   {% if manufacturer_list %}
-     <table >
+    <table>
       <thead>
         <tr>
           <th>Name</th>
@@ -19,7 +20,7 @@
         {% endfor %}
       </tbody>
     </table>
-    {% else %}
+  {% else %}
     <p>No manufacturer found.</p>
   {% endif %}
-{%  endblock %}
+{% endblock %}

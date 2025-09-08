@@ -9,10 +9,10 @@
         {{ driver.username }}
       </a>
     </td>
-    <td class="border-b whitespace-nowrap">
-      {{ driver.first_name }} {{ driver.last_name }}
-    </td>
-  </tr>
+      <td
+    class="border-b whitespace-nowrap">
+    {{ driver.first_name }} {{ driver.last_name }}
+  </td>
 {% empty %}
   <tr>
     <td colspan="{{ headers|length }}" class="px-4 py-2 text-center text-gray-500">
